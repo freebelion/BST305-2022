@@ -3,7 +3,7 @@
     class Hesap
     {
         private static uint _hesapSayisi = 0;
-        private decimal _bakiye;
+        protected decimal _bakiye;
         private uint _no;
 
         public uint No
@@ -24,7 +24,7 @@
             _bakiye += tutar;
         }
 
-        public void ParaCek(decimal tutar)
+        public virtual void ParaCek(decimal tutar)
         {
             if (_bakiye >= tutar)
             { _bakiye -= tutar; }
@@ -34,6 +34,12 @@
     class KrediliHesap : Hesap
     {
         private static decimal _EksiLimit = -1000;
+
+        public override void ParaCek(decimal tutar)
+        {
+            if (_bakiye - tutar >= _EksiLimit)
+            { _bakiye -= tutar; }
+        }
     }
 
     internal class Program

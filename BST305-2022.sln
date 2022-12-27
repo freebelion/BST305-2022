@@ -3,19 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankaUygulamasi", "BankaUygulamasi\BankaUygulamasi.csproj", "{3BE8542A-D868-45ED-9211-D3EB036B36C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankaUygulamasi", "BankaUygulamasi\BankaUygulamasi.csproj", "{3BE8542A-D868-45ED-9211-D3EB036B36C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KesirProgram", "KesirProgram\KesirProgram.csproj", "{108C36E0-3217-405A-8744-7D055D512700}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KesirProgram", "KesirProgram\KesirProgram.csproj", "{108C36E0-3217-405A-8744-7D055D512700}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VektorProgram", "VektorProgram\VektorProgram.csproj", "{29D0006F-C86F-4975-91CE-15D0DC674054}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VektorProgram", "VektorProgram\VektorProgram.csproj", "{29D0006F-C86F-4975-91CE-15D0DC674054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SureProgram", "SureProgram\SureProgram.csproj", "{E3EA7421-30F4-49B1-9621-721AC6AC8340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SureProgram", "SureProgram\SureProgram.csproj", "{E3EA7421-30F4-49B1-9621-721AC6AC8340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CizgiProgram", "CizgiProgram\CizgiProgram.csproj", "{E69DCA03-6354-4E73-8966-0EE755294448}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CizgiProgram", "CizgiProgram\CizgiProgram.csproj", "{E69DCA03-6354-4E73-8966-0EE755294448}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinifKutuphanesi", "SinifKutuphanesi\SinifKutuphanesi.csproj", "{BF0F6FE9-8AC6-4B88-9BD2-9E7B21DC65B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinifKutuphanesi", "SinifKutuphanesi\SinifKutuphanesi.csproj", "{BF0F6FE9-8AC6-4B88-9BD2-9E7B21DC65B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinifKutuphanesiTest", "SinifKutuphanesiTest\SinifKutuphanesiTest.csproj", "{47FB422B-D7AD-4C43-9B36-CD251FA0BAE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinifKutuphanesiTest", "SinifKutuphanesiTest\SinifKutuphanesiTest.csproj", "{47FB422B-D7AD-4C43-9B36-CD251FA0BAE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML", "UML", "{4AA6E5DF-73EB-4345-9236-834460E7AA6F}"
+	ProjectSection(SolutionItems) = preProject
+		UML\SinifSemalari1-SinifEklemek.png = UML\SinifSemalari1-SinifEklemek.png
+		UML\SinifSemalari10-SinifFonksiyonOzellikleriniDuzenlemek.png = UML\SinifSemalari10-SinifFonksiyonOzellikleriniDuzenlemek.png
+		UML\SinifSemalari11-SinifaKorumaliUyeEklemek.png = UML\SinifSemalari11-SinifaKorumaliUyeEklemek.png
+		UML\SinifSemalari12-UMLDilKonfigürasyonuAcmak.png = UML\SinifSemalari12-UMLDilKonfigürasyonuAcmak.png
+		UML\SinifSemalari13-UMLDilSeceneginiDegistirmek.png = UML\SinifSemalari13-UMLDilSeceneginiDegistirmek.png
+		UML\SinifSemalari14-SinifFonksiyonuVirtualEtiketlemek.png = UML\SinifSemalari14-SinifFonksiyonuVirtualEtiketlemek.png
+		UML\SinifSemalari15-SinifFonksiyonuOverrideEtiketlemek.png = UML\SinifSemalari15-SinifFonksiyonuOverrideEtiketlemek.png
+		UML\SinifSemalari16-SinifTuretme(Generlization)IliskisiEklemek.png = UML\SinifSemalari16-SinifTuretme(Generlization)IliskisiEklemek.png
+		UML\SinifSemalari2-SinifKutusunuBoyutlandirmak.png = UML\SinifSemalari2-SinifKutusunuBoyutlandirmak.png
+		UML\SinifSemalari3-SinifaUyeDegisken(Attribute)Eklemek.png = UML\SinifSemalari3-SinifaUyeDegisken(Attribute)Eklemek.png
+		UML\SinifSemalari4-SinifUyesiAdveTipBelirtmek.png = UML\SinifSemalari4-SinifUyesiAdveTipBelirtmek.png
+		UML\SinifSemalari5-SinifUyesiOzelliklerFormunuAcmak.png = UML\SinifSemalari5-SinifUyesiOzelliklerFormunuAcmak.png
+		UML\SinifSemalari6-OzelliklerFormundaSinifUyesiniDuzenlemek.png = UML\SinifSemalari6-OzelliklerFormundaSinifUyesiniDuzenlemek.png
+		UML\SinifSemalari7-SinifaKurucuFonksiyonTanimiEklemek.png = UML\SinifSemalari7-SinifaKurucuFonksiyonTanimiEklemek.png
+		UML\SinifSemalari8-SinifKurucuFonksiyonParametreleriEklemek.png = UML\SinifSemalari8-SinifKurucuFonksiyonParametreleriEklemek.png
+		UML\SinifSemalari9-SinifaMetodveyaFonksiyonEklemek.png = UML\SinifSemalari9-SinifaMetodveyaFonksiyonEklemek.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
