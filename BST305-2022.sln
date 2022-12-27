@@ -19,6 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinifKutuphanesiTest", "Sin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML", "UML", "{4AA6E5DF-73EB-4345-9236-834460E7AA6F}"
 	ProjectSection(SolutionItems) = preProject
+		UML\BST305.vpp = UML\BST305.vpp
 		UML\SinifSemalari1-SinifEklemek.png = UML\SinifSemalari1-SinifEklemek.png
 		UML\SinifSemalari10-SinifFonksiyonOzellikleriniDuzenlemek.png = UML\SinifSemalari10-SinifFonksiyonOzellikleriniDuzenlemek.png
 		UML\SinifSemalari11-SinifaKorumaliUyeEklemek.png = UML\SinifSemalari11-SinifaKorumaliUyeEklemek.png
