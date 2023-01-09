@@ -13,6 +13,8 @@
 
         public Dizi(int esayi)
         {// acaba gelen argümanı kontrol etsek mi?
+            if(esayi<1)
+            { throw(new ArgumentException("Argüman değeri 1'den küçük olamaz!")); }
             m_dizi = new T[esayi];
         }
 
@@ -53,6 +55,9 @@
             {
                 T[] yenidizi = new T[ElemanSayisi + 1];
                 // bu arada bir şeyler eksik
+                for(int i=0; i<ElemanSayisi; i++)
+                { yenidizi[i] = m_dizi[i]; }
+                
                 yenidizi[ElemanSayisi] = yeni;
                 m_dizi = yenidizi;
             }
